@@ -36,11 +36,11 @@ export default class App extends React.Component {
     this.setState({ filter: e.currentTarget.value });
   };
 
-  deleteContact = id => {
-    this.setState(prevState => ({
-      contacts: prevState.contacts.filter(contacts => contacts.id !== id),
-    }));
-  };
+  // deleteContact = id => {
+  //   this.setState(prevState => ({
+  //     contacts: prevState.contacts.filter(contacts => contacts.id !== id),
+  //   }));
+  // };
 
   componentDidMount(prevProps, prevState) {
     const contacts = localStorage.getItem('contacts');

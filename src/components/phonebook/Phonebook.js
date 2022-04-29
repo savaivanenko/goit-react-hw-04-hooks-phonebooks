@@ -1,8 +1,8 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import styles from './Phonebook.module.css';
+// import styles from './Phonebook.module.css';
 
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 class Phonebook extends React.Component {
   state = {
